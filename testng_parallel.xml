@@ -1,0 +1,12 @@
+<suite name="Parallel Suite" parallel="tests" thread-count="3">
+    <test name="Test Run 1">
+        <classes>
+            <class name="Runner.TestRunner"/>
+        </classes>
+    </test>
+    <test name="Test Run 2">
+        <classes>
+            <class name="Runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
